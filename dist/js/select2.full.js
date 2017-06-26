@@ -1764,10 +1764,6 @@ S2.define('select2/selection/allowClear',[
       function (evt) {
         self._handleClear(evt);
     });
-
-    container.on('keypress', function (evt) {
-      self._handleKeyboardClear(evt, container);
-    });
   };
 
   AllowClear.prototype._handleClear = function (_, evt) {
